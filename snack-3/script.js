@@ -17,5 +17,5 @@ console.log(newArray.join(" ,"))
 // console.log(numbers.map(newArray1 => numbers + 1)); perchè non va bene? sommo numbers + 1 (tutto l'array) invece dell’elemento ...
 console.log(numbers.map(num => num + 1));
 
-//col .forEach 
+//col .forEach non crea un nuovo array
 numbers.forEach(num => console.log(num + 1));
