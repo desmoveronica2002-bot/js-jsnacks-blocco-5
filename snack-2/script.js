@@ -7,7 +7,7 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
-//console.log(people.name); non va bene perchè people è un array quindinon ha direttamente la proprietà nameù
+//console.log(people.name); non va bene perchè people è un array quindi non ha direttamente la proprietà nameù
 
 //.map
 console.log(people.map(person => person.name)); // va bene perchè con map creo un nuovo array (person) con solo i nom  -> .map restituisce un nuovo array 
